@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class Ruin {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Start Amount: ");
+        System.out.println("Start Amount:");
         Double startAmount = in.nextDouble();
+        System.out.println("Win Chance:");
         Double winChance = in.nextDouble();
+        System.out.println("Win Limit:");
         Double winLimit = in.nextDouble();
+        System.out.println("Total Simulations:");
         Integer totalSimulations = in.nextInt();
         System.out.println("The win chance is " + winChance*100 + "%, the winLimit is $" + Math.round(winLimit) + ", and the starting amount is $" + Math.round(startAmount));
 
